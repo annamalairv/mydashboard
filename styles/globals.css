@@ -25,3 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+/* .ant-progress-bg {
+  height: 15px !important;
+} */
+
+.ant-progress-bg {
+  height: var(--progress-height, 15px) !important;
+}
+
+  
